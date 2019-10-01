@@ -1,0 +1,56 @@
+/* 전체 스타일 정의*/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+a {
+    font-family: 'Nanum Gothic';
+}
+a {
+    color: #000000;
+    text-decoration: none;
+}
+a {
+    color: #bbbbbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* 내비게이션 관련*/
+.navbar-default {/*배경색깔*/
+    background-color: #000000;
+    border-block-color: #000000;
+}
+.navbar-default .navbar-brand { /*네비게이션 제목 색상*/
+    color: white;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {/*네비게이션 무우스오버*/
+    background-color: transparent;
+    color: #bbbbbb;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus{ /*현재선택된 네비게이션 바 이벤트*/
+    color: white;
+    background-color: #000000;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{ /*현재선택된 list 이벤트*/
+    color: #bbbbbb;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus{ /*드랍다운에서 마우스 오버 이벤트*/
+    color: #000000;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+.navbar-default .navbar-nav > li > a {/*네비게이션 기본 색상*/
+    color: white;
+}
+@media (max-width: 767px) {/*모바일 모드가 되었을때 색깔이 제대로 안나와서 custurmise*/
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a{
+        color: white;
+    }
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus{
+        color: #bbbbbb;
+    }
+}

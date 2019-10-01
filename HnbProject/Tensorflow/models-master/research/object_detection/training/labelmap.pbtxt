@@ -1,0 +1,189 @@
+  item {
+    id: 1
+    name: 'yellow watery'
+  }
+  
+  item {
+    id: 2
+    name: 'yellow soft'
+  }
+  
+  item {
+    id: 3
+    name: 'yellow formed'
+  }
+  
+  item {
+    id: 4
+    name: 'yellow hard'
+  }
+  
+  item {
+    id: 5
+    name: 'orange watery'
+  }
+  
+  item {
+    id: 6
+    name: 'orange soft'
+  }
+  
+  item {
+    id: 7
+    name: 'orange formed'
+  }
+  
+  item {
+    id: 8
+    name: 'orange hard'
+  }
+  
+  item {
+    id: 9
+    name: 'green watery'
+  }
+  
+  item {
+    id: 10
+    name: 'green soft'
+  }
+  
+  item {
+    id: 11
+    name: 'green formed'
+  }
+  
+  item {
+    id: 12
+    name: 'green hard'
+  }
+  
+  item {
+    id: 13
+    name: 'brown watery'
+  }
+  
+  item {
+    id: 14
+    name: 'brown soft'
+  }
+  
+  item {
+    id: 15
+    name: 'brown formed'
+  }
+  
+  item {
+    id: 16
+    name: 'brown hard'
+  }
+  
+  item {
+    id: 17
+    name: 'mecon watery'
+  }
+  
+  item {
+    id: 18
+    name: 'mecon soft'
+  }
+  
+  item {
+    id: 19
+    name: 'mecon formed'
+  }
+  
+  item {
+    id: 20
+    name: 'mecon hard'
+  }
+  
+  item {
+    id: 21
+    name: 'clay watery'
+  }
+  
+  item {
+    id: 22
+    name: 'clay soft'
+  }
+  
+  item {
+    id: 23
+    name: 'clay formed'
+  }
+  
+  item {
+    id: 24
+    name: 'clay hard'
+  }
+  
+  item {
+    id: 25
+    name: 'red watery'
+  }
+  
+  item {
+    id: 26
+    name: 'red soft'
+  }
+  
+  item {
+    id: 27
+    name: 'red formed'
+  }
+  
+  item {
+    id: 28
+    name: 'red hard'
+  }
+  
+  item {
+    id: 29
+    name: 'black watery'
+  }
+  
+  item {
+    id: 30
+    name: 'black soft'
+  }
+  
+  item {
+    id: 31
+    name: 'black formed'
+  }
+  
+  item {
+    id: 32
+    name: 'black hard'
+  }
+  item {
+    id: 33
+    name: 'nine'
+  }
+  
+  item {
+    id: 34
+    name: 'ten'
+  }
+  
+  item {
+    id: 35
+    name: 'jack'
+  }
+  
+  item {
+    id: 36
+    name: 'queen'
+  }
+  
+  item {
+    id: 37
+    name: 'king'
+  }
+  
+  item {
+    id: 38
+    name: 'ace'
+  }
+  

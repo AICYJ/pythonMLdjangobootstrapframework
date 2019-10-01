@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width", initial-scale="1">
+        <title>HnB</title>
+        <!-- Bootstrap Core CSS -->
+        <link rel="stylesheet" href='{% static "css/bootstrap.min.css" %}' type="text/css">
+        <link rel="stylesheet" href='{% static "css/HnBcss.css" %}' type="text/css">
+    </head>
+    <body>
+        <style type="text/css">
+        .jumbotron{
+            background-image: url('{% static "images/hnbmain.jpg"%}');
+            background-size: cover;
+            text-shadow: black 0.2px 0.2px 0.2px;
+            color: white;
+        }
+        </style>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" 
+                    data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="flase">
+                        <span class="sr-only"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">HnB</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">소개<span class="sr-only"></span></a></li>
+                        <li><a href="#">회사소개</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                            aria-haspopup="true" aria-expanded="flase">약도<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">CEO소개</a></li>
+                                <li><a href="#">회사연혁</a></li>
+                                <li><a href="#">정신</a></li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                    <from class="navbar-form navbar-left">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="내용을 입력하게요">
+                            </div>
+                            <button type="submit" class=" btn btn-default">검색</button>
+                        </from>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                    aria-haspopup="true" aria-expanded="flase">접속하기<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">로그인</a></li>
+                                        <li><a href="#">회원가입</a></li>
+                                    </ul>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="jumbotron">
+                <h1 class="text-center">Hnb Global Reader</h1>
+                <p class="text-center">바이오 기술과 Bigdata 기술의 융합의 집합체 입니다.</p>
+                <p class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">상세한 정보보기</a></p>
+            </div>
+
+        </div>
+        <footer style="background-color: #000000; color: #ffffff">
+            <div class="container">
+                <br>
+                <div class="row">
+                    <div class="col-sm-2" style="text-align: center;"><h5>Copyright &copy;;2019</h5><h5>홍정한</h5></div>
+                    <div class="col-sm-4" style="text-align: center;"><h5>Copyright &copy;;2019</h5><h5>홍정한</h5><p>하이하이</p></div>
+                    <div class="col-sm-2" style="text-align: center;"><h5>Copyright &copy;;2019</h5><h5>홍정한</h5>
+                        <div class="list-gruop">
+                            <a href="#" class="list-group-item">체이스북</a>
+                            <a href="#" class="list-group-item">체이스북</a>
+                            <a href="#" class="list-group-item">체이스북</a>
+                        </div>
+                    </div>
+                    <div class="col-sm-2" style="text-align: center;"><h4>Copyright &copy;;2019</h4><h5>홍정한</h5>
+                        <div class="list-gruop">
+                            <a href="#" class="list-group-item">체이스북</a>
+                            <a href="#" class="list-group-item">체이스북</a>
+                            <a href="#" class="list-group-item">체이스북</a>
+                        </div>
+                    </div>
+                     <div class="col-sm-2" style="text-align: center;"><h4>Copyright &copy;;2019</h4><h5>홍정한</h5>
+                        <div class="list-gruop">
+                            <a href="#" class="list-group-item">체이스북</a>
+                            <a href="#" class="list-group-item">체이스북</a>
+                            <a href="#" class="list-group-item">체이스북</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+        <script src='{% static "js/bootstrap.js" %}'></script>
+    </body>
+</html>
