@@ -20,4 +20,5 @@ from poops import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
+    path('Poopsindex.html', views.Poopsindex),
 ]
